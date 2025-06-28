@@ -1,0 +1,23 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+env/
+.venv/
+*.env
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# FastAPI
+*.log
+
+# Node.js (if using React/Vite frontend)
+node_modules/
+dist/
