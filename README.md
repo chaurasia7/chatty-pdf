@@ -3,7 +3,7 @@ This is a full-stack AI-powered application that allows users to upload PDF docu
 *NOTE* -- "This project is working with the versions of Library as mentioned in the requirements.txt and it might not work with other Version. You are free to experiment, but do so at your own discretion."
 ---
 
-## 🧠 Tech Stack
+##Tech Stack
 
 ### Backend
 
@@ -19,7 +19,7 @@ This is a full-stack AI-powered application that allows users to upload PDF docu
 * Tailwind CSS
 ---
 
-## 📁 Project Structure
+## Structure
 
 ```
 fast/
@@ -35,7 +35,7 @@ fast/
 
 ---
 
-## 🔧 Backend Setup
+## Backend Setup
 
 ### 1. Clone the repository
 
@@ -75,7 +75,7 @@ uvicorn main:app --reload
 
 ---
 
-## 💻 Frontend Setup
+##Frontend Setup
 
 ```bash
 cd frontend
@@ -87,7 +87,7 @@ npm run dev
 
 ---
 
-## 🚀 Usage
+## Usage and Working
 
 1. Upload PDFs via the `/upload` endpoint or the React UI.
 2. The server will extract and chunk the text.
@@ -97,7 +97,7 @@ npm run dev
 
 ---
 
-## 🚫 Note
+## Note
 
 * If you are uploading it to GitHub then `.env` file should **not** be committed to Git. It's included in `.gitignore`.
 * Make sure `GOOGLE_API_KEY` is valid and has access to Gemini 1.5 Pro.
